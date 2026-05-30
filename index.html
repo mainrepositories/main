@@ -26,12 +26,10 @@
 	  }
 
 	  .egg {
-		width: 600px;
-		height: 600px;
-		max-width: 100vw;
-		max-height: 100vh;
-		object-fit: cover;
-	  }
+        width: min(600px, 100vw, calc(100vh - 15px));
+        height: min(600px, 100vw, calc(100vh - 15px));
+        object-fit: cover;
+      }
 	</style>
 	  <script defer src="https://cloud.umami.is/script.js" data-website-id="bef29a4c-8392-49c1-a25c-064e022e1fc4"></script>
   </head>
