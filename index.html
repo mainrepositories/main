@@ -3,8 +3,12 @@
   <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/png" href="favicon.png">
 	<title>Aurmont</title>
+<!-- Served to users on Light Mode -->
+<link rel="icon" href="favicon-black.png" type="image/png" media="(prefers-color-scheme: light)">
+
+<!-- Served to users on Dark Mode (Inverted White Logo) -->
+<link rel="icon" href="favicon-white.png" type="image/png" media="(prefers-color-scheme: dark)">
 	<style>
 * {
   margin: 0;
